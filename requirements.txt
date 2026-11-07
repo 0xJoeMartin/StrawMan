@@ -1,0 +1,38 @@
+# Scarecrow - Python Dependencies
+# Install: pip install -r requirements.txt
+
+# AI
+anthropic>=0.40.0
+
+# Computer Vision
+opencv-python-headless>=4.8.0
+ultralytics>=8.0.0        # YOLOv8
+
+# Servo Control (PCA9685)
+adafruit-circuitpython-servokit>=1.3.0
+adafruit-circuitpython-pca9685>=3.4.0
+
+# Audio
+pyaudio>=0.2.13
+numpy>=1.24.0
+scipy>=1.11.0
+
+# TTS
+requests>=2.31.0          # For ElevenLabs API
+piper-tts>=1.2.0          # Local TTS fallback (optional)
+
+# Speech-to-Text (listener)
+openai-whisper>=20231117   # Local speech recognition
+
+# Voice Activity Detection
+torch>=2.0.0               # Required by Silero VAD
+torchaudio>=2.0.0          # Required by Silero VAD
+
+# Web debug view
+flask>=3.0.0
+
+# Config
+python-dotenv>=1.0.0
+
+# Radar (HLK-LD2450 mmWave sensor over UART)
+pyserial>=3.5

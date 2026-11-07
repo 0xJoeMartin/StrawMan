@@ -1,0 +1,371 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1360" width="1800" height="1360" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect x="0.0" y="0.0" width="1800.0" height="1360.0" rx="0.0" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<text x="60.0" y="62.0" font-size="40" font-weight="700" fill="#212529" text-anchor="start" >StrawMan — how it's wired</text>
+<text x="60.0" y="95.0" font-size="18" font-weight="400" fill="#6c757d" text-anchor="start" >Raspberry Pi 5 + AI HAT+ · PCA9685 servo driver · HLK-LD2450 radar · USB camera, microphone and speaker</text>
+<text x="90.0" y="148.0" font-size="28" font-weight="700" fill="#212529" text-anchor="start" >Raspberry Pi 5</text>
+<text x="90.0" y="172.0" font-size="15" font-weight="400" fill="#495057" text-anchor="start" >85 × 56 mm · AI HAT+ on top (dashed)</text>
+<rect x="90.0" y="200.0" width="336.0" height="510.0" rx="18.0" fill="#2b7a4b" stroke="#1d5a37" stroke-width="2" />
+<circle cx="405.0" cy="221.0" r="18.0" fill="#c9a74a" stroke="none" stroke-width="0" />
+<circle cx="405.0" cy="221.0" r="8.1" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<circle cx="405.0" cy="569.0" r="18.0" fill="#c9a74a" stroke="none" stroke-width="0" />
+<circle cx="405.0" cy="569.0" r="8.1" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<circle cx="111.0" cy="221.0" r="18.0" fill="#c9a74a" stroke="none" stroke-width="0" />
+<circle cx="111.0" cy="221.0" r="8.1" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<circle cx="111.0" cy="569.0" r="18.0" fill="#c9a74a" stroke="none" stroke-width="0" />
+<circle cx="111.0" cy="569.0" r="8.1" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<rect x="210.0" y="332.0" width="90.0" height="90.0" rx="4.0" fill="#b8bec4" stroke="#868e96" stroke-width="1" />
+<text x="255.0" y="382.0" font-size="12" font-weight="700" fill="#495057" text-anchor="middle" >BCM2712</text>
+<rect x="216.0" y="248.0" width="84.0" height="60.0" rx="3.0" fill="#1f2326" stroke="none" stroke-width="0" />
+<rect x="270.0" y="512.0" width="48.0" height="48.0" rx="3.0" fill="#1f2326" stroke="none" stroke-width="0" />
+<text x="294.0" y="540.0" font-size="11" font-weight="700" fill="#adb5bd" text-anchor="middle" >RP1</text>
+<rect x="234.0" y="203.6" width="72.0" height="18.0" rx="0.0" fill="#f1f3f5" stroke="#adb5bd" stroke-width="1" />
+<rect x="147.0" y="500.0" width="78.0" height="16.8" rx="0.0" fill="#f1f3f5" stroke="#adb5bd" stroke-width="1" />
+<rect x="147.0" y="527.6" width="78.0" height="16.8" rx="0.0" fill="#f1f3f5" stroke="#adb5bd" stroke-width="1" />
+<rect x="82.8" y="240.2" width="46.2" height="54.0" rx="4.0" fill="#adb5bd" stroke="#495057" stroke-width="1.5" />
+<rect x="84.0" y="332.3" width="39.0" height="45.0" rx="2.0" fill="#adb5bd" stroke="#495057" stroke-width="1.5" />
+<rect x="84.0" y="412.7" width="39.0" height="45.0" rx="2.0" fill="#adb5bd" stroke="#495057" stroke-width="1.5" />
+<rect x="332.4" y="599.0" width="79.2" height="124.2" rx="2.0" fill="#ced4da" stroke="#495057" stroke-width="1.5" />
+<rect x="339.6" y="708.8" width="64.8" height="14.4" rx="0.0" fill="#212529" stroke="none" stroke-width="0" />
+<rect x="225.0" y="599.0" width="79.2" height="124.2" rx="2.0" fill="#ced4da" stroke="#495057" stroke-width="1.5" />
+<rect x="232.2" y="708.8" width="64.8" height="14.4" rx="0.0" fill="#1c7ed6" stroke="none" stroke-width="0" />
+<rect x="103.2" y="581.0" width="96.0" height="144.6" rx="2.0" fill="#ced4da" stroke="#495057" stroke-width="1.5" />
+<rect x="127.2" y="708.8" width="48.0" height="16.8" rx="0.0" fill="#495057" stroke="none" stroke-width="0" />
+<rect x="87.0" y="200.0" width="339.0" height="390.0" rx="18.0" fill="#163d26" stroke="#e9f7ef" stroke-width="2" fill-opacity="0.55" stroke-dasharray="10 7"/>
+<rect x="162.0" y="272.0" width="72.0" height="72.0" rx="3.0" fill="#111" stroke="#495057" stroke-width="1" />
+<text x="198.0" y="313.0" font-size="13" font-weight="700" fill="#e9ecef" text-anchor="middle" >Hailo-8</text>
+<path d="M240.0,200.0 C240.0,174.0 300.0,174.0 300.0,200.0" fill="none" stroke="#e8a33d" stroke-width="10" stroke-linecap="butt" opacity="0.9"/>
+<text x="314.0" y="194.0" font-size="13" font-weight="400" fill="#8a5a12" text-anchor="start" >PCIe ribbon</text>
+<text x="258.0" y="440.0" font-size="17" font-weight="700" fill="#fff" text-anchor="middle" >AI HAT+ (Hailo-8)</text>
+<text x="258.0" y="462.0" font-size="14" font-weight="400" fill="#d3f0de" text-anchor="middle" >sits on top — its header</text>
+<text x="258.0" y="480.0" font-size="14" font-weight="400" fill="#d3f0de" text-anchor="middle" >passes the GPIO pins through</text>
+<rect x="389.8" y="242.6" width="30.5" height="304.8" rx="2.0" fill="#1f2326" stroke="none" stroke-width="0" />
+<circle cx="397.4" cy="250.2" r="5.2" fill="#f08c00" stroke="#fff" stroke-width="1.5" />
+<rect x="410.0" y="247.6" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<circle cx="397.4" cy="265.5" r="5.2" fill="#1971c2" stroke="#fff" stroke-width="1.5" />
+<circle cx="412.6" cy="265.5" r="5.2" fill="#e03131" stroke="#fff" stroke-width="1.5" />
+<circle cx="397.4" cy="280.7" r="5.2" fill="#e0b000" stroke="#fff" stroke-width="1.5" />
+<circle cx="412.6" cy="280.7" r="5.2" fill="#212529" stroke="#fff" stroke-width="1.5" />
+<rect x="394.8" y="293.3" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<circle cx="412.6" cy="295.9" r="5.2" fill="#9c36b5" stroke="#fff" stroke-width="1.5" />
+<circle cx="397.4" cy="311.2" r="5.2" fill="#212529" stroke="#fff" stroke-width="1.5" />
+<circle cx="412.6" cy="311.2" r="5.2" fill="#0c8599" stroke="#fff" stroke-width="1.5" />
+<rect x="394.8" y="323.8" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="410.0" y="323.8" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="394.8" y="339.1" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="410.0" y="339.1" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="394.8" y="354.3" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="410.0" y="354.3" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="394.8" y="369.5" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="410.0" y="369.5" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="394.8" y="384.8" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="410.0" y="384.8" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="394.8" y="400.0" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="410.0" y="400.0" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="394.8" y="415.3" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="410.0" y="415.3" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="394.8" y="430.5" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="410.0" y="430.5" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="394.8" y="445.7" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="410.0" y="445.7" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="394.8" y="461.0" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="410.0" y="461.0" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="394.8" y="476.2" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="410.0" y="476.2" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="394.8" y="491.5" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="410.0" y="491.5" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="394.8" y="506.7" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="410.0" y="506.7" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="394.8" y="521.9" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="410.0" y="521.9" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="394.8" y="537.2" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="410.0" y="537.2" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<text x="385.4" y="255.2" font-size="13" font-weight="700" fill="#fff" text-anchor="end" >1</text>
+<path d="M82.8,267.2 L56.8,267.2 Q48.8,267.2 48.8,275.2 L48.8,330.0" fill="none" stroke="#868e96" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="36.0" y="300.0" font-size="14" font-weight="400" fill="#495057" text-anchor="end" transform="rotate(-90 36 300)">USB-C power: official 27 W supply</text>
+<text x="720.0" y="382.0" font-size="24" font-weight="700" fill="#212529" text-anchor="start" >PCA9685 servo driver</text>
+<text x="720.0" y="406.0" font-size="14" font-weight="400" fill="#495057" text-anchor="start" >62.5 × 25.4 mm · I²C address 0x40</text>
+<rect x="720.0" y="420.0" width="375.0" height="152.4" rx="12.0" fill="#1f5aa6" stroke="#163f78" stroke-width="2" />
+<circle cx="1075.8" cy="553.2" r="13.8" fill="#c9a74a" stroke="none" stroke-width="0" />
+<circle cx="1075.8" cy="553.2" r="7.5" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<circle cx="739.2" cy="553.2" r="13.8" fill="#c9a74a" stroke="none" stroke-width="0" />
+<circle cx="739.2" cy="553.2" r="7.5" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<circle cx="1075.8" cy="439.2" r="13.8" fill="#c9a74a" stroke="none" stroke-width="0" />
+<circle cx="1075.8" cy="439.2" r="7.5" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<circle cx="739.2" cy="439.2" r="13.8" fill="#c9a74a" stroke="none" stroke-width="0" />
+<circle cx="739.2" cy="439.2" r="7.5" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<rect x="879.0" y="479.4" width="60.0" height="39.0" rx="2.0" fill="#1f2326" stroke="none" stroke-width="0" />
+<text x="909.0" y="503.9" font-size="12" font-weight="700" fill="#ced4da" text-anchor="middle" >PCA9685</text>
+<rect x="822.6" y="550.8" width="8.4" height="8.4" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="809.4" y="550.8" width="8.4" height="8.4" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="796.2" y="550.8" width="8.4" height="8.4" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="783.0" y="550.8" width="8.4" height="8.4" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="769.8" y="550.8" width="8.4" height="8.4" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="756.6" y="550.8" width="8.4" height="8.4" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="786.0" y="528.0" width="12.0" height="7.2" rx="0.0" fill="#69db7c" stroke="none" stroke-width="0" />
+<rect x="1077.8" y="450.5" width="15.2" height="91.4" rx="0.0" fill="#1f2326" stroke="none" stroke-width="0" />
+<rect x="1082.8" y="531.7" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="1082.8" y="516.5" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="1082.8" y="501.2" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="1082.8" y="486.0" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="1082.8" y="470.7" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="1082.8" y="455.5" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="722.0" y="450.5" width="15.2" height="91.4" rx="0.0" fill="#1f2326" stroke="none" stroke-width="0" />
+<rect x="727.0" y="531.7" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="727.0" y="516.5" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="727.0" y="501.2" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="727.0" y="486.0" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="727.0" y="470.7" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="727.0" y="455.5" width="5.2" height="5.2" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<text x="741.6" y="538.3" font-size="11" font-weight="700" fill="#e7f0fb" text-anchor="start" >GND</text>
+<text x="741.6" y="523.1" font-size="11" font-weight="700" fill="#e7f0fb" text-anchor="start" >OE</text>
+<text x="741.6" y="507.8" font-size="11" font-weight="700" fill="#e7f0fb" text-anchor="start" >SCL</text>
+<text x="741.6" y="492.6" font-size="11" font-weight="700" fill="#e7f0fb" text-anchor="start" >SDA</text>
+<text x="741.6" y="477.3" font-size="11" font-weight="700" fill="#e7f0fb" text-anchor="start" >VCC</text>
+<text x="741.6" y="462.1" font-size="11" font-weight="700" fill="#e7f0fb" text-anchor="start" >V+</text>
+<rect x="981.4" y="422.0" width="61.0" height="45.7" rx="0.0" fill="#1f2326" stroke="none" stroke-width="0" />
+<rect x="911.8" y="422.0" width="61.0" height="45.7" rx="0.0" fill="#1f2326" stroke="none" stroke-width="0" />
+<rect x="842.2" y="422.0" width="61.0" height="45.7" rx="0.0" fill="#1f2326" stroke="none" stroke-width="0" />
+<rect x="772.6" y="422.0" width="61.0" height="45.7" rx="0.0" fill="#1f2326" stroke="none" stroke-width="0" />
+<rect x="1032.4" y="457.7" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="1032.4" y="442.4" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="1032.4" y="427.2" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<text x="1034.8" y="482.8" font-size="10" font-weight="700" fill="#e7f0fb" text-anchor="middle" >0</text>
+<rect x="1017.1" y="457.7" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="1017.1" y="442.4" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="1017.1" y="427.2" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<text x="1019.5" y="482.8" font-size="10" font-weight="700" fill="#e7f0fb" text-anchor="middle" >1</text>
+<rect x="1001.9" y="457.7" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="1001.9" y="442.4" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="1001.9" y="427.2" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<text x="1004.3" y="482.8" font-size="10" font-weight="700" fill="#e7f0fb" text-anchor="middle" >2</text>
+<rect x="986.6" y="457.7" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="986.6" y="442.4" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="986.6" y="427.2" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<text x="989.0" y="482.8" font-size="10" font-weight="700" fill="#e7f0fb" text-anchor="middle" >3</text>
+<rect x="962.8" y="457.7" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="962.8" y="442.4" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="962.8" y="427.2" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<text x="965.2" y="482.8" font-size="10" font-weight="700" fill="#e7f0fb" text-anchor="middle" >4</text>
+<rect x="947.5" y="457.7" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="947.5" y="442.4" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="947.5" y="427.2" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<text x="949.9" y="482.8" font-size="10" font-weight="700" fill="#e7f0fb" text-anchor="middle" >5</text>
+<rect x="932.3" y="457.7" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="932.3" y="442.4" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="932.3" y="427.2" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<text x="934.7" y="482.8" font-size="10" font-weight="700" fill="#e7f0fb" text-anchor="middle" >6</text>
+<rect x="917.0" y="457.7" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="917.0" y="442.4" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="917.0" y="427.2" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<text x="919.4" y="482.8" font-size="10" font-weight="700" fill="#e7f0fb" text-anchor="middle" >7</text>
+<rect x="893.2" y="457.7" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="893.2" y="442.4" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="893.2" y="427.2" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<text x="895.6" y="482.8" font-size="10" font-weight="700" fill="#e7f0fb" text-anchor="middle" >8</text>
+<rect x="877.9" y="457.7" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="877.9" y="442.4" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="877.9" y="427.2" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<text x="880.3" y="482.8" font-size="10" font-weight="700" fill="#e7f0fb" text-anchor="middle" >9</text>
+<rect x="862.7" y="457.7" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="862.7" y="442.4" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="862.7" y="427.2" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<text x="865.1" y="482.8" font-size="10" font-weight="700" fill="#e7f0fb" text-anchor="middle" >10</text>
+<rect x="847.4" y="457.7" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="847.4" y="442.4" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="847.4" y="427.2" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<text x="849.8" y="482.8" font-size="10" font-weight="700" fill="#e7f0fb" text-anchor="middle" >11</text>
+<rect x="823.6" y="457.7" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="823.6" y="442.4" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="823.6" y="427.2" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<text x="826.0" y="482.8" font-size="10" font-weight="700" fill="#e7f0fb" text-anchor="middle" >12</text>
+<rect x="808.3" y="457.7" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="808.3" y="442.4" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="808.3" y="427.2" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<text x="810.7" y="482.8" font-size="10" font-weight="700" fill="#e7f0fb" text-anchor="middle" >13</text>
+<rect x="793.1" y="457.7" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="793.1" y="442.4" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="793.1" y="427.2" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<text x="795.5" y="482.8" font-size="10" font-weight="700" fill="#e7f0fb" text-anchor="middle" >14</text>
+<rect x="777.8" y="457.7" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="777.8" y="442.4" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<rect x="777.8" y="427.2" width="4.8" height="4.8" rx="0.0" fill="#d9b44a" stroke="none" stroke-width="0" />
+<text x="780.2" y="482.8" font-size="10" font-weight="700" fill="#e7f0fb" text-anchor="middle" >15</text>
+<rect x="882.0" y="533.4" width="54.0" height="47.4" rx="3.0" fill="#2f9e44" stroke="#1e6b2e" stroke-width="1.5" />
+<circle cx="924.2" cy="560.4" r="12.0" fill="#adb5bd" stroke="#495057" stroke-width="1.5" />
+<line x1="917.2" y1="560.4" x2="931.2" y2="560.4" stroke="#495057" stroke-width="2"/>
+<circle cx="893.8" cy="560.4" r="12.0" fill="#adb5bd" stroke="#495057" stroke-width="1.5" />
+<line x1="886.8" y1="560.4" x2="900.8" y2="560.4" stroke="#495057" stroke-width="2"/>
+<text x="924.2" y="544.4" font-size="15" font-weight="700" fill="#fff" text-anchor="middle" >+</text>
+<text x="893.8" y="544.4" font-size="15" font-weight="700" fill="#fff" text-anchor="middle" >−</text>
+<rect x="820.0" y="650.0" width="240.0" height="84.0" rx="12.0" fill="#495057" stroke="none" stroke-width="0" />
+<text x="940.0" y="686.0" font-size="19" font-weight="700" fill="#fff" text-anchor="middle" >5 V 5 A power supply</text>
+<text x="940.0" y="710.0" font-size="14" font-weight="400" fill="#dee2e6" text-anchor="middle" >for the servos only</text>
+<path d="M924.2,650.0 L924.2,580.8" fill="none" stroke="#e03131" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M893.8,650.0 L893.8,580.8" fill="none" stroke="#212529" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1262.0" y="182.0" width="327.0" height="96.0" rx="6.0" fill="#1c2c55" stroke="none" stroke-width="0" />
+<circle cx="1277.6" cy="203.0" r="6.0" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<circle cx="1277.6" cy="257.0" r="6.0" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<circle cx="1573.4" cy="203.0" r="6.0" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<circle cx="1573.4" cy="257.0" r="6.0" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<rect x="1304.0" y="170.0" width="243.0" height="120.0" rx="8.0" fill="#22346a" stroke="#13204a" stroke-width="2" />
+<circle cx="1487.0" cy="230.0" r="39.0" fill="#2f437f" stroke="none" stroke-width="0" />
+<rect x="1397.0" y="216.8" width="126.0" height="26.4" rx="13.2" fill="#f8f9fa" stroke="#adb5bd"/>
+<circle cx="1487.0" cy="230.0" r="13.2" fill="#dee2e6" stroke="#868e96" stroke-width="1" />
+<text x="1603.0" y="218.0" font-size="20" font-weight="700" fill="#212529" text-anchor="start" >Pan</text>
+<text x="1603.0" y="240.0" font-size="14" font-weight="400" fill="#495057" text-anchor="start" >head left / right</text>
+<text x="1603.0" y="260.0" font-size="14" font-weight="400" fill="#495057" text-anchor="start" >channel 0</text>
+<rect x="1262.0" y="332.0" width="327.0" height="96.0" rx="6.0" fill="#1c2c55" stroke="none" stroke-width="0" />
+<circle cx="1277.6" cy="353.0" r="6.0" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<circle cx="1277.6" cy="407.0" r="6.0" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<circle cx="1573.4" cy="353.0" r="6.0" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<circle cx="1573.4" cy="407.0" r="6.0" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<rect x="1304.0" y="320.0" width="243.0" height="120.0" rx="8.0" fill="#22346a" stroke="#13204a" stroke-width="2" />
+<circle cx="1487.0" cy="380.0" r="39.0" fill="#2f437f" stroke="none" stroke-width="0" />
+<rect x="1397.0" y="366.8" width="126.0" height="26.4" rx="13.2" fill="#f8f9fa" stroke="#adb5bd"/>
+<circle cx="1487.0" cy="380.0" r="13.2" fill="#dee2e6" stroke="#868e96" stroke-width="1" />
+<text x="1603.0" y="368.0" font-size="20" font-weight="700" fill="#212529" text-anchor="start" >Tilt</text>
+<text x="1603.0" y="390.0" font-size="14" font-weight="400" fill="#495057" text-anchor="start" >head up / down</text>
+<text x="1603.0" y="410.0" font-size="14" font-weight="400" fill="#495057" text-anchor="start" >channel 1</text>
+<rect x="1262.0" y="482.0" width="327.0" height="96.0" rx="6.0" fill="#1c2c55" stroke="none" stroke-width="0" />
+<circle cx="1277.6" cy="503.0" r="6.0" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<circle cx="1277.6" cy="557.0" r="6.0" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<circle cx="1573.4" cy="503.0" r="6.0" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<circle cx="1573.4" cy="557.0" r="6.0" fill="#fbf8f3" stroke="none" stroke-width="0" />
+<rect x="1304.0" y="470.0" width="243.0" height="120.0" rx="8.0" fill="#22346a" stroke="#13204a" stroke-width="2" />
+<circle cx="1487.0" cy="530.0" r="39.0" fill="#2f437f" stroke="none" stroke-width="0" />
+<rect x="1397.0" y="516.8" width="126.0" height="26.4" rx="13.2" fill="#f8f9fa" stroke="#adb5bd"/>
+<circle cx="1487.0" cy="530.0" r="13.2" fill="#dee2e6" stroke="#868e96" stroke-width="1" />
+<text x="1603.0" y="518.0" font-size="20" font-weight="700" fill="#212529" text-anchor="start" >Jaw</text>
+<text x="1603.0" y="540.0" font-size="14" font-weight="400" fill="#495057" text-anchor="start" >mouth open / shut</text>
+<text x="1603.0" y="560.0" font-size="14" font-weight="400" fill="#495057" text-anchor="start" >channel 2</text>
+<text x="1262.0" y="640.0" font-size="13" font-weight="400" fill="#495057" text-anchor="start" >Servo leads: brown = ground (outer row) · red = +5 V · orange = signal</text>
+<path d="M1034.8,429.6 L1034.8,353.5 Q1034.8,347.5 1040.8,347.5 L1211.5,347.5 Q1217.5,347.5 1217.5,341.5 L1217.5,231.5 Q1217.5,225.5 1223.5,225.5 L1304.0,225.5" fill="none" stroke="#8b5a2b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1034.8,444.8 L1034.8,358.0 Q1034.8,352.0 1040.8,352.0 L1216.0,352.0 Q1222.0,352.0 1222.0,346.0 L1222.0,236.0 Q1222.0,230.0 1228.0,230.0 L1304.0,230.0" fill="none" stroke="#e03131" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1034.8,460.1 L1034.8,362.5 Q1034.8,356.5 1040.8,356.5 L1220.5,356.5 Q1226.5,356.5 1226.5,350.5 L1226.5,240.5 Q1226.5,234.5 1232.5,234.5 L1304.0,234.5" fill="none" stroke="#f08c00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1019.5,429.6 L1019.5,373.5 Q1019.5,367.5 1025.5,367.5 L1191.5,367.5 Q1197.5,367.5 1197.5,371.5 L1197.5,371.5 Q1197.5,375.5 1203.5,375.5 L1304.0,375.5" fill="none" stroke="#8b5a2b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1019.5,444.8 L1019.5,378.0 Q1019.5,372.0 1025.5,372.0 L1196.0,372.0 Q1202.0,372.0 1202.0,376.0 L1202.0,376.0 Q1202.0,380.0 1208.0,380.0 L1304.0,380.0" fill="none" stroke="#e03131" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1019.5,460.1 L1019.5,382.5 Q1019.5,376.5 1025.5,376.5 L1200.5,376.5 Q1206.5,376.5 1206.5,380.5 L1206.5,380.5 Q1206.5,384.5 1212.5,384.5 L1304.0,384.5" fill="none" stroke="#f08c00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1004.3,429.6 L1004.3,393.5 Q1004.3,387.5 1010.3,387.5 L1171.5,387.5 Q1177.5,387.5 1177.5,393.5 L1177.5,519.5 Q1177.5,525.5 1183.5,525.5 L1304.0,525.5" fill="none" stroke="#8b5a2b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1004.3,444.8 L1004.3,398.0 Q1004.3,392.0 1010.3,392.0 L1176.0,392.0 Q1182.0,392.0 1182.0,398.0 L1182.0,524.0 Q1182.0,530.0 1188.0,530.0 L1304.0,530.0" fill="none" stroke="#e03131" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1004.3,460.1 L1004.3,402.5 Q1004.3,396.5 1010.3,396.5 L1180.5,396.5 Q1186.5,396.5 1186.5,402.5 L1186.5,528.5 Q1186.5,534.5 1192.5,534.5 L1304.0,534.5" fill="none" stroke="#f08c00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1250.0" y="840.0" width="264.0" height="90.0" rx="8.0" fill="#24324d" stroke="#16203a" stroke-width="2" />
+<rect x="1358.0" y="855.0" width="27.0" height="27.0" rx="3.0" fill="#33456a" stroke="none" stroke-width="0" />
+<rect x="1358.0" y="888.0" width="27.0" height="27.0" rx="3.0" fill="#33456a" stroke="none" stroke-width="0" />
+<rect x="1400.0" y="855.0" width="27.0" height="27.0" rx="3.0" fill="#33456a" stroke="none" stroke-width="0" />
+<rect x="1400.0" y="888.0" width="27.0" height="27.0" rx="3.0" fill="#33456a" stroke="none" stroke-width="0" />
+<rect x="1442.0" y="855.0" width="27.0" height="27.0" rx="3.0" fill="#33456a" stroke="none" stroke-width="0" />
+<rect x="1442.0" y="888.0" width="27.0" height="27.0" rx="3.0" fill="#33456a" stroke="none" stroke-width="0" />
+<rect x="1256.0" y="862.5" width="27.0" height="45.0" rx="2.0" fill="#f1f3f5" stroke="#adb5bd" stroke-width="1" />
+<text x="1528.0" y="870.0" font-size="22" font-weight="700" fill="#212529" text-anchor="start" >HLK-LD2450</text>
+<text x="1528.0" y="892.0" font-size="14" font-weight="400" fill="#495057" text-anchor="start" >mmWave radar · back</text>
+<text x="1528.0" y="910.0" font-size="14" font-weight="400" fill="#495057" text-anchor="start" >44 × 15 mm · optional</text>
+<path d="M1184.0,862.1 L1206.0,862.1 Q1210.0,862.1 1213.9,862.8 L1262.0,871.5" fill="none" stroke="#adb5bd" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1184.0,877.4 L1206.0,877.4 Q1210.0,877.4 1214.0,877.6 L1262.0,880.5" fill="none" stroke="#adb5bd" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1184.0,892.6 L1206.0,892.6 Q1210.0,892.6 1214.0,892.4 L1262.0,889.5" fill="none" stroke="#adb5bd" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1184.0,907.9 L1206.0,907.9 Q1210.0,907.9 1213.9,907.2 L1262.0,898.5" fill="none" stroke="#adb5bd" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1170.0" y="854.5" width="14.0" height="61.0" rx="2.0" fill="#1f2326" stroke="none" stroke-width="0" />
+<text x="1192.0" y="853.1" font-size="1" font-weight="400" fill="#212529" text-anchor="start" ></text>
+<text x="1192.0" y="877.4" font-size="1" font-weight="400" fill="#212529" text-anchor="start" ></text>
+<text x="1192.0" y="892.6" font-size="1" font-weight="400" fill="#212529" text-anchor="start" ></text>
+<text x="1192.0" y="907.9" font-size="1" font-weight="400" fill="#212529" text-anchor="start" ></text>
+<text x="1184.0" y="935.9" font-size="12" font-weight="400" fill="#495057" text-anchor="end" >the radar's own cable</text>
+<text x="1292.0" y="875.0" font-size="9" font-weight="700" fill="#e9ecef" text-anchor="start" >5V</text>
+<text x="1292.0" y="884.0" font-size="9" font-weight="700" fill="#e9ecef" text-anchor="start" >GND</text>
+<text x="1292.0" y="893.0" font-size="9" font-weight="700" fill="#e9ecef" text-anchor="start" >TX</text>
+<text x="1292.0" y="902.0" font-size="9" font-weight="700" fill="#e9ecef" text-anchor="start" >RX</text>
+<path d="M397.4,250.2 L400.9,246.4 Q404.4,242.6 412.4,242.6 L552.0,242.6 Q560.0,242.6 560.0,250.6 L560.0,465.3 Q560.0,473.3 568.0,473.3 L729.6,473.3" fill="none" stroke="#fbf8f3" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M397.4,250.2 L400.9,246.4 Q404.4,242.6 412.4,242.6 L552.0,242.6 Q560.0,242.6 560.0,250.6 L560.0,465.3 Q560.0,473.3 568.0,473.3 L729.6,473.3" fill="none" stroke="#f08c00" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M397.4,265.5 L400.9,261.7 Q404.4,257.8 412.4,257.8 L532.0,257.8 Q540.0,257.8 540.0,265.8 L540.0,480.6 Q540.0,488.6 548.0,488.6 L729.6,488.6" fill="none" stroke="#fbf8f3" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M397.4,265.5 L400.9,261.7 Q404.4,257.8 412.4,257.8 L532.0,257.8 Q540.0,257.8 540.0,265.8 L540.0,480.6 Q540.0,488.6 548.0,488.6 L729.6,488.6" fill="none" stroke="#1971c2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M397.4,280.7 L400.9,276.9 Q404.4,273.1 412.4,273.1 L512.0,273.1 Q520.0,273.1 520.0,281.1 L520.0,495.8 Q520.0,503.8 528.0,503.8 L729.6,503.8" fill="none" stroke="#fbf8f3" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M397.4,280.7 L400.9,276.9 Q404.4,273.1 412.4,273.1 L512.0,273.1 Q520.0,273.1 520.0,281.1 L520.0,495.8 Q520.0,503.8 528.0,503.8 L729.6,503.8" fill="none" stroke="#e0b000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M412.6,280.7 L492.0,280.7 Q500.0,280.7 500.0,288.7 L500.0,526.3 Q500.0,534.3 508.0,534.3 L729.6,534.3" fill="none" stroke="#fbf8f3" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M412.6,280.7 L492.0,280.7 Q500.0,280.7 500.0,288.7 L500.0,526.3 Q500.0,534.3 508.0,534.3 L729.6,534.3" fill="none" stroke="#212529" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M412.6,265.5 L480.0,265.5 Q488.0,265.5 488.0,273.5 L488.0,854.1 Q488.0,862.1 496.0,862.1 L1170.0,862.1" fill="none" stroke="#fbf8f3" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M412.6,265.5 L480.0,265.5 Q488.0,265.5 488.0,273.5 L488.0,854.1 Q488.0,862.1 496.0,862.1 L1170.0,862.1" fill="none" stroke="#e03131" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M397.4,311.2 L400.9,307.4 Q404.4,303.6 412.4,303.6 L464.0,303.6 Q472.0,303.6 472.0,311.6 L472.0,869.4 Q472.0,877.4 480.0,877.4 L1170.0,877.4" fill="none" stroke="#fbf8f3" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M397.4,311.2 L400.9,307.4 Q404.4,303.6 412.4,303.6 L464.0,303.6 Q472.0,303.6 472.0,311.6 L472.0,869.4 Q472.0,877.4 480.0,877.4 L1170.0,877.4" fill="none" stroke="#212529" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M412.6,311.2 L448.0,311.2 Q456.0,311.2 456.0,319.2 L456.0,884.6 Q456.0,892.6 464.0,892.6 L1170.0,892.6" fill="none" stroke="#fbf8f3" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M412.6,311.2 L448.0,311.2 Q456.0,311.2 456.0,319.2 L456.0,884.6 Q456.0,892.6 464.0,892.6 L1170.0,892.6" fill="none" stroke="#0c8599" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M412.6,295.9 L432.0,295.9 Q440.0,295.9 440.0,303.9 L440.0,899.9 Q440.0,907.9 448.0,907.9 L1170.0,907.9" fill="none" stroke="#fbf8f3" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M412.6,295.9 L432.0,295.9 Q440.0,295.9 440.0,303.9 L440.0,899.9 Q440.0,907.9 448.0,907.9 L1170.0,907.9" fill="none" stroke="#9c36b5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="704.0" y="469.3" font-size="12" font-weight="400" fill="#495057" text-anchor="end" >3.3 V → VCC</text>
+<text x="704.0" y="484.6" font-size="12" font-weight="400" fill="#495057" text-anchor="end" >SDA</text>
+<text x="704.0" y="499.8" font-size="12" font-weight="400" fill="#495057" text-anchor="end" >SCL</text>
+<text x="704.0" y="530.3" font-size="12" font-weight="400" fill="#495057" text-anchor="end" >GND</text>
+<text x="1150.0" y="858.1" font-size="12" font-weight="400" fill="#495057" text-anchor="end" >5 V (pin 4) → 5V</text>
+<text x="1150.0" y="873.4" font-size="12" font-weight="400" fill="#495057" text-anchor="end" >GND (pin 9) → GND</text>
+<text x="1150.0" y="888.6" font-size="12" font-weight="400" fill="#495057" text-anchor="end" >radar TX → Pi RX (pin 10)</text>
+<text x="1150.0" y="903.9" font-size="12" font-weight="400" fill="#495057" text-anchor="end" >Pi TX (pin 8) → radar RX</text>
+<circle cx="397.4" cy="250.2" r="5.2" fill="#f08c00" stroke="#fff" stroke-width="1.5" />
+<circle cx="397.4" cy="265.5" r="5.2" fill="#1971c2" stroke="#fff" stroke-width="1.5" />
+<circle cx="397.4" cy="280.7" r="5.2" fill="#e0b000" stroke="#fff" stroke-width="1.5" />
+<circle cx="412.6" cy="280.7" r="5.2" fill="#212529" stroke="#fff" stroke-width="1.5" />
+<circle cx="412.6" cy="265.5" r="5.2" fill="#e03131" stroke="#fff" stroke-width="1.5" />
+<circle cx="412.6" cy="295.9" r="5.2" fill="#9c36b5" stroke="#fff" stroke-width="1.5" />
+<circle cx="397.4" cy="311.2" r="5.2" fill="#212529" stroke="#fff" stroke-width="1.5" />
+<circle cx="412.6" cy="311.2" r="5.2" fill="#0c8599" stroke="#fff" stroke-width="1.5" />
+<rect x="560.0" y="975.0" width="380.0" height="190.0" rx="12.0" fill="#fff" stroke="#dee2e6" stroke-width="1.5" />
+<text x="580.0" y="1005.0" font-size="16" font-weight="700" fill="#212529" text-anchor="start" >GPIO pins used (enlarged)</text>
+<text x="580.0" y="1025.0" font-size="13" font-weight="400" fill="#6c757d" text-anchor="start" >Pin 1 is the end farthest from the USB ports</text>
+<circle cx="730.0" cy="1051.0" r="10.0" fill="#f08c00" stroke="#fff" stroke-width="1.5" />
+<text x="730.0" y="1055.0" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" >1</text>
+<text x="712.0" y="1055.0" font-size="13" font-weight="400" fill="#212529" text-anchor="end" >3.3 V</text>
+<circle cx="770.0" cy="1051.0" r="10.0" fill="#ced4da" stroke="#adb5bd" stroke-width="1.5" />
+<text x="770.0" y="1055.0" font-size="10" font-weight="700" fill="#495057" text-anchor="middle" >2</text>
+<text x="788.0" y="1055.0" font-size="13" font-weight="400" fill="#adb5bd" text-anchor="start" >5 V (not used)</text>
+<circle cx="730.0" cy="1074.0" r="10.0" fill="#1971c2" stroke="#fff" stroke-width="1.5" />
+<text x="730.0" y="1078.0" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" >3</text>
+<text x="712.0" y="1078.0" font-size="13" font-weight="400" fill="#212529" text-anchor="end" >SDA</text>
+<circle cx="770.0" cy="1074.0" r="10.0" fill="#e03131" stroke="#fff" stroke-width="1.5" />
+<text x="770.0" y="1078.0" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" >4</text>
+<text x="788.0" y="1078.0" font-size="13" font-weight="400" fill="#212529" text-anchor="start" >5 V</text>
+<circle cx="730.0" cy="1097.0" r="10.0" fill="#e0b000" stroke="#fff" stroke-width="1.5" />
+<text x="730.0" y="1101.0" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" >5</text>
+<text x="712.0" y="1101.0" font-size="13" font-weight="400" fill="#212529" text-anchor="end" >SCL</text>
+<circle cx="770.0" cy="1097.0" r="10.0" fill="#212529" stroke="#fff" stroke-width="1.5" />
+<text x="770.0" y="1101.0" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" >6</text>
+<text x="788.0" y="1101.0" font-size="13" font-weight="400" fill="#212529" text-anchor="start" >GND</text>
+<circle cx="730.0" cy="1120.0" r="10.0" fill="#ced4da" stroke="#adb5bd" stroke-width="1.5" />
+<text x="730.0" y="1124.0" font-size="10" font-weight="700" fill="#495057" text-anchor="middle" >7</text>
+<text x="712.0" y="1124.0" font-size="13" font-weight="400" fill="#adb5bd" text-anchor="end" ></text>
+<circle cx="770.0" cy="1120.0" r="10.0" fill="#9c36b5" stroke="#fff" stroke-width="1.5" />
+<text x="770.0" y="1124.0" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" >8</text>
+<text x="788.0" y="1124.0" font-size="13" font-weight="400" fill="#212529" text-anchor="start" >TXD</text>
+<circle cx="730.0" cy="1143.0" r="10.0" fill="#212529" stroke="#fff" stroke-width="1.5" />
+<text x="730.0" y="1147.0" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" >9</text>
+<text x="712.0" y="1147.0" font-size="13" font-weight="400" fill="#212529" text-anchor="end" >GND</text>
+<circle cx="770.0" cy="1143.0" r="10.0" fill="#0c8599" stroke="#fff" stroke-width="1.5" />
+<text x="770.0" y="1147.0" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" >10</text>
+<text x="788.0" y="1147.0" font-size="13" font-weight="400" fill="#212529" text-anchor="start" >RXD</text>
+<rect x="1250.0" y="975.0" width="500.0" height="230.0" rx="12.0" fill="#fff4e6" stroke="#f08c00" stroke-width="2" />
+<text x="1270.0" y="1007.0" font-size="18" font-weight="700" fill="#d9480f" text-anchor="start" >Before you power up</text>
+<text x="1270.0" y="1037.0" font-size="14" font-weight="400" fill="#343a40" text-anchor="start" >Servos get power only from the 5 V supply, never from the Pi.</text>
+<text x="1270.0" y="1059.0" font-size="14" font-weight="400" fill="#343a40" text-anchor="start" >All grounds meet on the PCA9685. Leave its V+ header pin empty.</text>
+<text x="1270.0" y="1081.0" font-size="14" font-weight="400" fill="#343a40" text-anchor="start" >The radar's TX and RX cross over to the Pi.</text>
+<text x="1270.0" y="1103.0" font-size="14" font-weight="400" fill="#343a40" text-anchor="start" >install.sh turns on I²C and the serial port for you.</text>
+<text x="1270.0" y="1125.0" font-size="14" font-weight="400" fill="#343a40" text-anchor="start" >Clone PCA9685 boards: if the servo header's V+ pins read 0 V</text>
+<text x="1270.0" y="1147.0" font-size="14" font-weight="400" fill="#343a40" text-anchor="start" >with 5 V on the terminal, its protection MOSFET has burned out.</text>
+<text x="1270.0" y="1169.0" font-size="14" font-weight="400" fill="#343a40" text-anchor="start" >Check the + / − and radar pin labels on your own boards.</text>
+<rect x="40.0" y="1235.0" width="300.0" height="80.0" rx="10.0" fill="#fff" stroke="#adb5bd" stroke-width="2" />
+<text x="190.0" y="1267.0" font-size="17" font-weight="700" fill="#212529" text-anchor="middle" >USB camera (Arducam 5MP)</text>
+<text x="190.0" y="1291.0" font-size="13" font-weight="400" fill="#495057" text-anchor="middle" >in an eye socket · sees people</text>
+<rect x="360.0" y="1235.0" width="270.0" height="80.0" rx="10.0" fill="#fff" stroke="#adb5bd" stroke-width="2" />
+<text x="495.0" y="1267.0" font-size="17" font-weight="700" fill="#212529" text-anchor="middle" >USB microphone</text>
+<text x="495.0" y="1291.0" font-size="13" font-weight="400" fill="#495057" text-anchor="middle" >in the collar · hears replies</text>
+<rect x="650.0" y="1235.0" width="300.0" height="80.0" rx="10.0" fill="#fff" stroke="#adb5bd" stroke-width="2" />
+<text x="800.0" y="1267.0" font-size="17" font-weight="700" fill="#212529" text-anchor="middle" >USB audio adapter</text>
+<text x="800.0" y="1291.0" font-size="13" font-weight="400" fill="#495057" text-anchor="middle" >the Pi 5 has no headphone jack</text>
+<rect x="1010.0" y="1235.0" width="230.0" height="80.0" rx="10.0" fill="#fff" stroke="#adb5bd" stroke-width="2" />
+<text x="1125.0" y="1267.0" font-size="17" font-weight="700" fill="#212529" text-anchor="middle" >Powered speaker</text>
+<text x="1125.0" y="1291.0" font-size="13" font-weight="400" fill="#495057" text-anchor="middle" >in the chest · his voice</text>
+<path d="M264.6,723.2 L264.6,1182.0 Q264.6,1190.0 256.6,1190.0 L198.0,1190.0 Q190.0,1190.0 190.0,1198.0 L190.0,1235.0" fill="none" stroke="#868e96" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M358.0,723.2 L358.0,1197.0 Q358.0,1205.0 366.0,1205.0 L487.0,1205.0 Q495.0,1205.0 495.0,1213.0 L495.0,1235.0" fill="none" stroke="#868e96" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M386.0,723.2 L386.0,1168.0 Q386.0,1176.0 394.0,1176.0 L792.0,1176.0 Q800.0,1176.0 800.0,1184.0 L800.0,1235.0" fill="none" stroke="#868e96" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M950.0,1275.0 L1010.0,1275.0" fill="none" stroke="#495057" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="980.0" y="1265.0" font-size="12" font-weight="400" fill="#495057" text-anchor="middle" >3.5 mm</text>
+<text x="264.6" y="745.2" font-size="12" font-weight="400" fill="#495057" text-anchor="middle" >USB 3</text>
+<text x="372.0" y="745.2" font-size="12" font-weight="400" fill="#495057" text-anchor="middle" >USB 2</text>
+<text x="151.2" y="747.6" font-size="12" font-weight="400" fill="#adb5bd" text-anchor="middle" >Ethernet</text>
+<text x="1760.0" y="1344.0" font-size="12" font-weight="400" fill="#868e96" text-anchor="end" >Boards drawn to scale (1 mm = 6 px); wires, cables and the boxes aren't. The PCA9685 is drawn turned around so its wires don't cross: both ends' 6-pin headers are the same.</text>
+</svg>

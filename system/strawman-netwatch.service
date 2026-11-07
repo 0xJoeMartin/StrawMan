@@ -1,0 +1,13 @@
+[Unit]
+Description=StrawMan network watchdog (resets Wi-Fi, then reboots, when the router stops answering)
+After=NetworkManager.service
+Wants=NetworkManager.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/sbin/strawman-netwatch
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Runs the faster-whisper server (whisper-server/whisper_server.py) on a Mac
+  at login, so the scarecrow can send it speech to transcribe.
+
+  1. Copy whisper-server/ to ~/strawman-whisper-server and make its venv there
+     (not under ~/Documents, ~/Desktop or ~/Downloads: macOS privacy protection
+     stops launch agents reading those, and the agent dies with exit 78).
+  2. Replace YOURNAME below with your macOS user name.
+  3. cp com.scarecrow.whisper-server.plist ~/Library/LaunchAgents/
+     launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.scarecrow.whisper-server.plist
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.scarecrow.whisper-server</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/YOURNAME/strawman-whisper-server/bin/python3</string>
+        <string>/Users/YOURNAME/strawman-whisper-server/whisper_server.py</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/YOURNAME/strawman-whisper-server</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/Users/YOURNAME/Library/Logs/strawman-whisper-server.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/YOURNAME/Library/Logs/strawman-whisper-server.log</string>
+</dict>
+</plist>

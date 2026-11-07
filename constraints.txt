@@ -1,0 +1,73 @@
+# Versions known to work: the venv on the reference build (Raspberry Pi 5,
+# Raspberry Pi OS Trixie, Python 3.13), Oct 2026. install.sh installs with
+#   pip install -r requirements.txt -c constraints.txt
+# so a new build gets the same versions instead of whatever is newest.
+# torch / torchaudio / torchvision come from PyTorch's CPU-only index (see
+# install.sh); the PyPI builds pull in ~3 GB of NVIDIA CUDA libraries a Pi
+# can't use.
+# flatbuffers is left out: the reference venv had a 2018 build that makes
+# pip's resolver give up (resolution-too-deep).
+#
+# Regenerate on a working Pi:
+#   venv/bin/pip freeze --local | grep -viE '^(nvidia-|cuda-|triton=|flatbuffers=)'
+Adafruit-Blinka==9.0.4
+Adafruit-Blinka-Raspberry-Pi5-Neopixel==1.0.0rc2
+adafruit-circuitpython-busdevice==5.2.16
+adafruit-circuitpython-connectionmanager==3.1.7
+adafruit-circuitpython-motor==3.4.19
+adafruit-circuitpython-pca9685==3.4.21
+adafruit-circuitpython-register==1.11.2
+adafruit-circuitpython-requests==4.1.16
+adafruit-circuitpython-servokit==1.3.23
+adafruit-circuitpython-typing==1.12.3
+Adafruit-PlatformDetect==3.88.0
+Adafruit-PureIO==1.1.11
+annotated-types==0.7.0
+anthropic==0.96.0
+anyio==4.13.0
+binho-host-adapter==0.1.6
+contourpy==1.3.3
+cycler==0.12.1
+docstring_parser==0.18.0
+fonttools==4.62.1
+fsspec==2026.3.0
+h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
+jiter==0.14.0
+kiwisolver==1.5.0
+llvmlite==0.47.0
+matplotlib==3.10.8
+mpmath==1.3.0
+networkx==3.6.1
+numba==0.65.0
+onnxruntime==1.24.4
+openai-whisper==20250625
+opencv-python==4.13.0.92
+opencv-python-headless==4.13.0.92
+pathvalidate==3.3.1
+piper-tts==1.4.2
+polars==1.40.0
+polars-runtime-32==1.40.0
+protobuf==7.34.1
+PyAudio==0.2.14
+pydantic==2.13.2
+pydantic_core==2.46.2
+pyftdi==0.57.1
+pyparsing==3.3.2
+pyusb==1.3.1
+regex==2026.4.4
+RPi.GPIO==0.7.1
+rpi_ws281x==5.0.0
+scipy==1.17.1
+sniffio==1.3.1
+sympy==1.14.0
+sysv_ipc==1.2.0
+tiktoken==0.12.0
+torch==2.11.0
+torchaudio==2.11.0
+torchvision==0.26.0
+typing-inspection==0.4.2
+typing_extensions==4.15.0
+ultralytics==8.4.39
+ultralytics-thop==2.0.18
